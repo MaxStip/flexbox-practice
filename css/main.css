@@ -107,13 +107,40 @@ body {
   font-size: 1.25em;
   height: 100%;
   background-color: black;
+  display: flex;
+  justify-content: center;
 }
+
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
+  max-width: 1200px;
+ 
+}
+
+Header {
+    color: silver;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+    
+main {
+    color: silver;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+
+footer {
+color: silver;
+display: flex;
+justify-content: flex-start;
+width: 100%;
 }
 
 .div-1, .div-2, .div-3 {
@@ -124,12 +151,13 @@ body {
   height: 350px;
   width: 30%;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   border-right: 1px solid grey;
   padding-right: 5px;
 
 }
+
 
 
 
